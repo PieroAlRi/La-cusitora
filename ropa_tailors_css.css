@@ -3,12 +3,6 @@
     background-color: black;
 }
 
-#header {
-    height: 200px;
-    align-content: center;
-    margin: auto;
-}
-
 
 #img_tailors {
     background: url(tailors_logo.PNG);
@@ -16,13 +10,19 @@
     background-repeat: no-repeat;
     height: 200px;
     width: 200px;
-    margin-left: 43%;
-    margin: auto;
+    margin:auto;
+    /*position: fixed;
+    left: 45%;*/
     
     /*border: 1px solid black;*/
 }
+#content {
+    float: left;
+    width: 100%;
+    padding-left:
+}
 
-#menu {
-    position: relative;
-    margin-left: 41%;
+
+#sign {
+    float: right;
 }
