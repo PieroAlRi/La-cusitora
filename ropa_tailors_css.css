@@ -25,4 +25,75 @@
 
 #sign {
     float: right;
+    margin-right: 10px;
+}
+
+.licolor{
+    background-color: darkgray;
+}
+
+#ulcolor {
+    background-color: darkgray;
+}
+
+#tall {
+    border: white solid 1px;
+    height: 600px;
+}
+/* Camiseta */
+#camisetaimg {
+    border: white solid 1px;
+    height: 600px;
+    width: 35%;
+    float: left;
+}
+
+#camisetatext {
+    border: white solid 1px;
+    height: 600px;
+    width: 65%;
+    float: right;
+}
+/* Abrigos */
+#abrigostext {
+    border: white solid 1px;
+    height: 600px;
+    width: 50%;
+    float: right;
+}
+
+#abrigosimg {
+    border: white solid 1px;
+    height: 600px;
+    width: 50%;
+    float: left;
+}
+
+/* Mujer */
+#mujerimg {
+    border: white solid 1px;
+    height: 600px;
+    width: 50%;
+    float: left;
+}
+
+#mujertext {
+    border: white solid 1px;
+    height: 600px;
+    width: 50%;
+    float: right;
+}
+/* Cremallera */
+#cremalleratext {
+    border: white solid 1px;
+    height: 600px;
+    width: 65%;
+    float: left;
+}
+
+#cremalleraimg {
+    border: white solid 1px;
+    height: 600px;
+    width: 35%;
+    float: right;
 }
