@@ -36,64 +36,106 @@
     background-color: darkgray;
 }
 
-#tall {
-    border: white solid 1px;
-    height: 600px;
-}
+
 /* Camiseta */
+#rowcamisa {
+    margin-bottom: 140px;
+}
+
 #camisetaimg {
-    border: white solid 1px;
+    /*border: white solid 1px;*/
+    background: url(camisa.PNG);
+    background-size: 100%;
+    background-repeat: no-repeat;
     height: 600px;
     width: 35%;
     float: left;
+    margin-top: 0px;
 }
 
 #camisetatext {
-    border: white solid 1px;
+    /*border: white solid 1px;*/
     height: 600px;
-    width: 65%;
+    width: 63%;
     float: right;
+    margin-top: 0px;
+    background-color: #1E1E1E;
 }
 /* Abrigos */
-#abrigostext {
-    border: white solid 1px;
-    height: 600px;
-    width: 50%;
-    float: right;
+#rowabrigos {
+    margin-bottom: 40px;
 }
 
 #abrigosimg {
-    border: white solid 1px;
-    height: 600px;
+    /*border: white solid 1px;*/
+    background: url(abrigos.PNG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
     width: 50%;
+    float: right;
+}
+
+#abrigostext {
+    /*border: white solid 1px;*/
+    height: 800px;
+    width: 48%;
     float: left;
+    background-color: #1E1E1E;
 }
 
 /* Mujer */
+#rowmujer {
+    margin-bottom: 60px;
+}
 #mujerimg {
-    border: white solid 1px;
-    height: 600px;
+    /*border: white solid 1px;*/
+    background: url(mujer.PNG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
     width: 50%;
     float: left;
 }
 
 #mujertext {
-    border: white solid 1px;
-    height: 600px;
-    width: 50%;
+    /*border: white solid 1px;*/
+    height: 800px;
+    width: 48%;
     float: right;
+    background-color: #1E1E1E;
 }
 /* Cremallera */
 #cremalleratext {
-    border: white solid 1px;
-    height: 600px;
-    width: 65%;
+    /*border: white solid 1px;*/
+    height: 1000px;
+    width: 58%;
     float: left;
+    background-color: #1E1E1E;
 }
 
 #cremalleraimg {
-    border: white solid 1px;
-    height: 600px;
-    width: 35%;
+    /*border: white solid 1px;*/
+    background: url(cremallera.PNG);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 40%;
     float: right;
 }
+
+#tam {
+    height: 200px;
+}
+
+p{
+    text-align: center; 
+    color: whitesmoke;
+}
+
+#top {
+    margin-top: 60px;
+    font-family: Homer Simpson UI;
+    font-size: 30px;
+}
+
