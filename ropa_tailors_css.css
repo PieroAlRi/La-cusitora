@@ -19,23 +19,42 @@
 #content {
     float: left;
     width: 100%;
-    padding-left:
+    background-color: #191919;
+    height: 10px;
+    
 }
 
+.liarreglos {
+    font-family: raleway, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    width: 170px;
+    display: inline-block;
+    margin-left: -16px;
+}
+.spancaret {
+    visibility: hidden;
+}
 
 #sign {
     float: right;
     margin-right: 10px;
+    font-size: 15px;
 }
 
-.licolor{
-    background-color: darkgray;
+a:hover {
+  opacity: 100 !important;
 }
 
 #ulcolor {
-    background-color: darkgray;
+    background-color: #191919;
 }
-
+#pmenu {
+    text-align: left;
+    background-color: none;
+    color: whitesmoke;
+    font-size: 16px;
+}
 
 /* Camiseta */
 #rowcamisa {
@@ -45,9 +64,9 @@
 #camisetaimg {
     /*border: white solid 1px;*/
     background: url(camisa.PNG);
-    background-size: 100%;
+    background-size: 100% 672px;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 672px;
     width: 35%;
     float: left;
     margin-top: 0px;
@@ -55,11 +74,11 @@
 
 #camisetatext {
     /*border: white solid 1px;*/
-    height: 600px;
+    height: 672px;
     width: 63%;
     float: right;
     margin-top: 0px;
-    background-color: #1E1E1E;
+    background-color: #191919;
 }
 /* Abrigos */
 #rowabrigos {
@@ -69,19 +88,23 @@
 #abrigosimg {
     /*border: white solid 1px;*/
     background: url(abrigos.PNG);
-    background-size: 100%;
+    background-size: 100% 932px;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 932px;
     width: 50%;
     float: right;
+    
 }
 
 #abrigostext {
     /*border: white solid 1px;*/
-    height: 800px;
+    height: 932px;
     width: 48%;
     float: left;
-    background-color: #1E1E1E;
+    background-color: #191919;
+    padding: 9% 0 9% 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Mujer */
@@ -91,35 +114,35 @@
 #mujerimg {
     /*border: white solid 1px;*/
     background: url(mujer.PNG);
-    background-size: 100%;
+    background-size: 100% 900px;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 900px;
     width: 50%;
     float: left;
 }
 
 #mujertext {
     /*border: white solid 1px;*/
-    height: 800px;
+    height: 900px;
     width: 48%;
     float: right;
-    background-color: #1E1E1E;
+    background-color: #191919;
 }
 /* Cremallera */
 #cremalleratext {
     /*border: white solid 1px;*/
-    height: 1000px;
+    height: 1174px;
     width: 58%;
     float: left;
-    background-color: #1E1E1E;
+    background-color: #191919;
 }
 
 #cremalleraimg {
     /*border: white solid 1px;*/
     background: url(cremallera.PNG);
-    background-size: 100%;
+    background-size: 100% 1174px;
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 1174px;
     width: 40%;
     float: right;
 }
@@ -128,8 +151,30 @@
     height: 200px;
 }
 
+#title {
+    text-align: center;
+    font-family: playfair display, serif;
+    color: whitesmoke;
+    font-size: 40px;
+    vertical-align: middle;
+}
+#title2 {
+    text-align: center;
+    font-family: playfair display, serif;
+    color: whitesmoke;
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 p{
     text-align: center; 
+    color: whitesmoke;
+    font-size: 16px;   
+}
+
+#link {
+    font-size: 18px;
+    font-family: Homer Simpson UI;
     color: whitesmoke;
 }
 
