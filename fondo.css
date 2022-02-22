@@ -1,0 +1,50 @@
+#body1 {
+    background-color: black;
+}
+
+#header {
+    height: 200px;
+    border: black 1px;
+}
+
+#img_tailors {
+    background: url(tailors_logo.PNG);
+    background-size: 200px 200px ;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    left: 45%;
+}
+
+imgss {
+    background: url(piel.png);
+    background-size: 1000px 1000px;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1000px;
+    border: 1px solid white;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   }
+
+ #img_tailors2 {
+    background: url(tailors_logo.PNG);
+ }
+
+ .dos {
+    float: left;
+    margin-top: 10px;
+    border: solid white 1px;
+    height: 100px;
+    width: 100px;
+    
+ }
+
+ .tres {
+     margin-left: 42% !important;
+ }
