@@ -23,15 +23,37 @@
     height: 10px;
     
 }
+.limenu{
+    width: 300px;
+}
+
+.arreglos {
+    width: 150px;
+    height: 49px;
+}
+
+.contacto {
+    width: 129px;
+    height: 49px;
+    position: relative;
+    left: 170px;
+    bottom: 48px;
+}
 
 .liarreglos {
     font-family: raleway, sans-serif;
     font-size: 15px;
     font-weight: bolder;
     width: 170px;
-    display: inline-block;
-    margin-left: -16px;
 }
+
+.licontacto {
+    font-family: raleway, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    width: 70px;
+}
+/* Ocultar la flecha desplegable de Arreglos y servicios*/
 .spancaret {
     visibility: hidden;
 }
@@ -174,13 +196,19 @@ p{
 
 #link {
     font-size: 18px;
-    font-family: Homer Simpson UI;
+    font-family: playfair display, serif;
     color: whitesmoke;
 }
 
 #top {
     margin-top: 60px;
-    font-family: Homer Simpson UI;
+    font-family: playfair display, serif;
     font-size: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .limenu{
+    width: 300px;
+  }
 }
 
